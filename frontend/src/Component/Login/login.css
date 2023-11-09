@@ -1,0 +1,32 @@
+.page-height{
+    height: calc(100vh - 0px);
+}
+
+.auth-container{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 3px 10px 0 rgb(0 0 0 / 50%);
+}
+
+.input-box{
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #717171;
+    text-indent: 10px;
+}
+
+.input-box:focus-visible{
+    outline: none;
+}
+
+.auth-button{
+    width: 50%;
+    height: 36px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(224, 50, 50);
+    color: #fff;
+}
